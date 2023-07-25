@@ -1,2 +1,2 @@
 # exercicios-udemy-logicadeprogramacao
-Códigos feitos no Visualg
+Exercícios feitos no curso de Lógica de Programação da Udemy
