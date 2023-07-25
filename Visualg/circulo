@@ -1,0 +1,14 @@
+Algoritmo "Circulo"
+
+Var
+r, area : real
+
+Inicio
+
+escreva ("Digite o valor do raio do circulo: ")
+leia (r)
+
+     area <- pi * r^2
+
+escreval ("Área = ", area:6:3)
+Fimalgoritmo
