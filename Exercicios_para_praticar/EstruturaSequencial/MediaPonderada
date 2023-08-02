@@ -1,0 +1,28 @@
+// faça um programa que receba duas notas, calcule e mostre a media ponderada dessas notas, considerando peso 2 para a primeira nota e peso 3 para a segunda nota //
+
+Algoritmo "MediaPonderada"
+
+Var
+n1, n2, p1, p2, media: real
+
+Inicio
+
+escreva ("Digite a primeira nota: ")
+leia(n1)
+escreva ("Digite a segunda nota: ")
+leia(n2)
+
+p1 <- 2
+p2 <- 3
+        
+media <- ((n1*p1) + (n2*p2)) / (p1+p2)
+
+escreval ("Média = ", media:4:2)
+
+se media >= 7 entao
+   escreval ("Aprovado")
+   senao
+   escreval ("Reprovado")
+fimse
+
+Fimalgoritmo
