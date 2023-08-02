@@ -1,0 +1,19 @@
+// faça um programa que receba dois números, calcule e mostre a divisao do primeiro número pelo segundo//
+
+Algoritmo "divisao"
+
+Var
+a, b, result: real
+
+Inicio
+
+escreva ("Digite o primeiro número: ")
+leia(a)
+escreva ("Digite o segundo número: ")
+leia(b)
+
+result <- a / b
+
+escreval ("Resultado = ", result:4:2)
+
+Fimalgoritmo
