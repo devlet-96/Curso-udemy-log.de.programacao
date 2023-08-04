@@ -1,0 +1,19 @@
+Algoritmo "Quadrado"
+// Faça um programa que calcule e mostre a área de um quadrado
+
+Var
+
+A, lado: real
+
+Inicio
+
+escreval ("Vamos calcular a área de um quadrado!")
+escreval
+escreva("Digite o valor dos lados do quadrado: ")
+leia(lado)
+
+A <- lado ^ 2
+
+Escreval("Valor da Área do quadrado: ", A:4:2)
+
+Fimalgoritmo
