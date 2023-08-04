@@ -1,0 +1,26 @@
+Algoritmo "Peso"
+// Faça um programa que receba o peso de uma pessoa, calcule e mostre:
+// a) o novo peso se a pessoa engordar 15% sobre o peso digitado;
+// b) o novo peso se a pessoa emagrecer 20% sobre o peso digitado.
+
+Var
+
+peso, pesoA, pesoB, pesoganho, pesoperdido : real
+
+
+Inicio
+
+escreva("Digite o seu peso: ")
+leia(peso)
+
+pesoA <- (peso * 15) / 100
+PesoGanho <- peso + pesoA
+
+     pesoB <- (peso * 20) / 100
+     PesoPerdido <- peso - pesoB
+
+
+Escreval("Peso ganho: ", PesoGanho:4:2)
+Escreval("Peso perdido: ", PesoPerdido:4:2)
+
+Fimalgoritmo
