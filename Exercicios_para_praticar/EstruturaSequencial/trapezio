@@ -1,0 +1,23 @@
+Algoritmo "Trapezio"
+// Faça um programa que calcule e mostre a área de um trapézio
+
+Var
+
+A, BaseMaior, BaseMenor, altura: real
+
+Inicio
+
+escreval ("Vamos calcular a área de um trapézio!")
+
+escreva("Digite o valor da base maior: ")
+leia(basemaior)
+     escreva("Digite o valor da base menor: ")
+     leia(basemenor)
+          escreva("Digite o valor da altura: ")
+          leia(altura)
+
+A <- ((basemaior + basemenor) * altura) / 2
+
+Escreval("Valor da Área do trapézio: ", A:4:2)
+
+Fimalgoritmo
