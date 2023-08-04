@@ -1,0 +1,24 @@
+Algoritmo "Salario"
+// Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas.
+// Faça um programa que receba o salário fixo e o valor de suas vendas, calcule
+// e mostre a comissão e salário final do funcionário.
+
+Var
+
+SFixo, vendas, comissao, SFinal: real
+
+
+Inicio
+
+escreva("Digite o valor do salário fixo: ")
+leia(SFixo)
+escreva("Digite o valor das vendas: ")
+leia(vendas)
+
+comissao <- (vendas * 4) / 100
+
+SFinal <- SFixo + comissao
+
+Escreval("Valor do salário + comissão: R$", SFinal:4:2)
+
+Fimalgoritmo
