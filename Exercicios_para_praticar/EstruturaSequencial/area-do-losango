@@ -1,0 +1,21 @@
+Algoritmo "area-do-losango"
+// Faça um programa que calcule e mostre a área de um losango
+
+Var
+
+A, Dmaior, Dmenor: real
+
+Inicio
+
+escreva("Vamos calcular a área de um losango!")
+escreval
+escreva("Digite o valor da diagonal maior: ")
+leia(dmaior)
+escreva("Digite o valor da diagonal menor: ")
+leia(dmenor)
+
+A <- (dmaior * dmenor)/2
+
+Escreval("Valor da Área do losango: ", A:4:2)
+
+Fimalgoritmo
