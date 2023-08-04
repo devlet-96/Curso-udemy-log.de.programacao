@@ -1,0 +1,21 @@
+Algoritmo "Desconto"
+// Faça um programa que receba o preço de um produto, calcule e mostre o novo
+// preço, sabendo-se que este sofreu um desconto de 10%
+
+Var
+
+valor, valor2, desconto : real
+
+
+Inicio
+
+escreva("Digite o valor do produto: ")
+leia(valor)
+
+desconto <- (valor * 10) / 100
+
+valor2 <- valor - desconto
+
+Escreval("Valor com 10% de desconto: R$", valor2:4:2)
+
+Fimalgoritmo
