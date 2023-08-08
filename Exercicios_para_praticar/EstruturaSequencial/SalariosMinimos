@@ -1,0 +1,20 @@
+Algoritmo "SalariosMinimos"
+// Faça um programa que receba o valor do salário mínino e o valor do salário
+// de um funcionário, calcule e mostre a quantidade de salários mínimos que
+// ganha esse funcionário.
+
+Var
+
+sMin, sFunc, resultado : real
+
+Inicio
+
+Escreva ("Digite o valor do salário mínimo: ")
+leia(sMin)
+escreva ("Digite o valor do salário do funcionário: ")
+leia (sFunc)
+
+resultado <-  sFunc / sMin
+
+escreval ("Quantidade de selários mínimos que o funcionário recebe: ", resultado:4:1)
+Fimalgoritmo
