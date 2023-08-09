@@ -1,0 +1,23 @@
+Algoritmo "Temperatura"
+// Sabe-se que para iluminar de maneira correta os cômodos de uma casa, para
+// cada m², deve-se usar 18w de potência. Faça um programa que receba as duas
+// dimensões de um comodo em metros, calcule e mostre a área em m² e a potência
+// de iluminação que deverá ser utilizada.
+
+Var
+L, C, A, P : real
+
+Inicio
+
+escreva("Digite a largura do quarto: ")
+leia(L)
+escreva ("Digite o comprimento do quarto: ")
+leia (C)
+
+A <- L*C
+P <- A*18
+
+escreval ("Área do quarto: ", A, "m².")
+escreval ("Potência da iluminação :", p, "W.")
+
+Fimalgoritmo
