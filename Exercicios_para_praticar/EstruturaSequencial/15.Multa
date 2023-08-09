@@ -1,0 +1,25 @@
+Algoritmo "Multa"
+// João recebeu seu salário e precisa pagar duas contas que estão atrasadas.
+// Como as contas estão atrasadas, João terá que pagar uma multa de 2% sobre
+// cada conta. Faça um programa que calcule e mostre quanto restará o salário
+// de João
+
+Var
+
+salario, conta1, conta2, resto, multa: real
+
+Inicio
+
+escreva ("Digite o valor do salário: ")
+leia (salario)
+escreva ("Digite valor da primeira conta: ")
+leia (conta1)
+escreva ("Digite valor da segunda conta: ")
+leia (conta2)
+
+multa <- (conta1 + ((conta1 * 2) / 100)) + (conta2 + ((conta2 * 2) / 100))
+
+resto <- salario - multa
+
+Escreval ("Sobrará do salário = R$", resto:4:2)
+Fimalgoritmo
