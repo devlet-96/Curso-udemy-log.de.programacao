@@ -1,0 +1,33 @@
+Algoritmo "Idade"
+// Faça um programa que receba o ano de nascimento de uma pessoa e o ano atual,
+// calcule e mostre:
+// a) a idade dessa pessoa em anos;
+// b) a idade dessa pessoa em meses;
+// c) a idade dessa pessoa em semanas;
+// d) a idade dessa pessoa em dias.
+
+Var
+
+anoNasc, anoAtual, anos, meses, semanas, dias: real
+
+Inicio
+
+escreva ("Digite o ano de nascimento: ")
+leia (anoNasc)
+escreva ("Digite o ano atual: ")
+leia (anoAtual)
+
+anos <- anoAtual - anoNasc
+
+meses <- anos * 12
+
+semanas <- anos * 52.143
+
+dias <- anos * 365
+
+escreval("Idade em anos: ", anos)
+escreval("Idade em meses: ", meses)
+escreval ("Idade em semanas: ", semanas:8:2)
+escreval ("Idade em dias: ", dias)
+
+Fimalgoritmo
