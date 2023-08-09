@@ -1,0 +1,20 @@
+Algoritmo "hipotenusa"
+// Faça um programa que receba o valor dos catetos de um triângulo, calcule e
+// mostre o valor da hipotenusa
+
+Var
+
+a, b, c, h: real
+
+Inicio
+
+escreva ("Digite o valor do cateto oposto: ")
+leia (a)
+escreva ("Digite valor do cateto adjacente: ")
+leia (b)
+
+c <- a^2+b^2
+h <- raizQ (c)
+
+Escreval ("O valor da hipotenusa é: ", h:4:2)
+Fimalgoritmo
