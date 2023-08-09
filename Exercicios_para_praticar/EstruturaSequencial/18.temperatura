@@ -1,0 +1,16 @@
+Algoritmo "Temperatura"
+// Faça um programa que receba uma temperatura em Celsius, calcule e mostre a
+// temperatura em Farenheint
+
+Var
+c, f : real
+
+Inicio
+escreva("Digite a temperatura em Celsius: ")
+leia(c)
+
+f <- (c * 9/5) + 32
+
+escreval ("Temperatura em Farenheint: ", f, "°F")
+
+Fimalgoritmo
