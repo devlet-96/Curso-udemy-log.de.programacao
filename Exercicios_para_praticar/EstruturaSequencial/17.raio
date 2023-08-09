@@ -1,0 +1,24 @@
+Algoritmo "Raio"
+// Faça um programa que receba o raio, calule e mostre:
+// a) o comprimento de ums esfera, sabe-se que C=2 Pi R
+// b) a área da esfera, sabe-se que A =Pi R²
+// c) o volume da esfera, sabe-se que V = 4/3 Pi R³
+
+Var
+
+r, a, c, v: real
+
+Inicio
+
+escreva ("Digite o valor do Raio: ")
+leia (r)
+
+c <- (2*Pi) * r
+a <- Pi * r^2
+v <- (4/3 * Pi) * r^3
+
+Escreval ("Comprimento: ", c:4:2)
+Escreval ("Área: ", a:4:2)
+Escreval ("Volume: ", v:4:2)
+
+Fimalgoritmo
