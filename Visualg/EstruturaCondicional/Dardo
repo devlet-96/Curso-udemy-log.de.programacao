@@ -1,0 +1,28 @@
+Algoritmo "Dardo"
+// No arremesso de dardo, o atleta tem três chances para lançar o dardo à
+// maior distância que conseguir. Você deve criar um programa para, dadas as
+// medidas das três tentativas de lançamento, informar qual foi a maior.
+
+Var
+
+D1, D2, D3 : real
+
+
+Inicio
+
+      escreval("Digite as três distâncias: ")
+      leia(D1)
+      leia(D2)
+      leia(D3)
+      
+      se (D1 >= D2) e (D1 >= D3) entao
+         escreval("Maior distância = ", D1)
+         senao
+              se (D2 >= D1) e (D2 >= D3) entao
+              escreval("Maior distância = ", D2)
+              senao
+              escreval ("Maior distância = ", D3)
+              fimse
+      fimse
+      
+Fimalgoritmo
